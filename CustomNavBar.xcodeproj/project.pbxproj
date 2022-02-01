@@ -15,6 +15,7 @@
 		81CEE77027A99E34009EE251 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE76F27A99E34009EE251 /* CustomNavBarView.swift */; };
 		81CEE77227A9A1AC009EE251 /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE77127A9A1AC009EE251 /* CustomNavBarContainerView.swift */; };
 		81CEE77427A9A54B009EE251 /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE77327A9A54B009EE251 /* CustomNavView.swift */; };
+		81CEE77627A9A760009EE251 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE77527A9A760009EE251 /* CustomNavLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		81CEE76F27A99E34009EE251 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
 		81CEE77127A9A1AC009EE251 /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
 		81CEE77327A9A54B009EE251 /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		81CEE77527A9A760009EE251 /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				81CEE77327A9A54B009EE251 /* CustomNavView.swift */,
 				81CEE76F27A99E34009EE251 /* CustomNavBarView.swift */,
 				81CEE77127A9A1AC009EE251 /* CustomNavBarContainerView.swift */,
+				81CEE77527A9A760009EE251 /* CustomNavLink.swift */,
 			);
 			path = NavBar;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				81CEE76127A99C90009EE251 /* ContentView.swift in Sources */,
 				81CEE77227A9A1AC009EE251 /* CustomNavBarContainerView.swift in Sources */,
 				81CEE77027A99E34009EE251 /* CustomNavBarView.swift in Sources */,
+				81CEE77627A9A760009EE251 /* CustomNavLink.swift in Sources */,
 				81CEE75F27A99C90009EE251 /* CustomNavBarApp.swift in Sources */,
 				81CEE76E27A99CDE009EE251 /* AppNavBarView.swift in Sources */,
 				81CEE77427A9A54B009EE251 /* CustomNavView.swift in Sources */,
