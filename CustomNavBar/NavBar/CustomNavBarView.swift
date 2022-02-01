@@ -40,7 +40,7 @@ struct CustomNavBarView: View {
 struct CustomNavBarView_Previews: PreviewProvider {
     static var previews: some View {
         VStack {
-            CustomNavBarView(showBackButton: true, title: "test", subtitle: "test")
+            CustomNavBarView(showBackButton: true, title: "", subtitle: nil)
             Spacer()
         }
     }
