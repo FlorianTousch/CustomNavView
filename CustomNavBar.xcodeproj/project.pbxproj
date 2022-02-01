@@ -13,6 +13,7 @@
 		81CEE76627A99C92009EE251 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CEE76527A99C92009EE251 /* Preview Assets.xcassets */; };
 		81CEE76E27A99CDE009EE251 /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE76D27A99CDE009EE251 /* AppNavBarView.swift */; };
 		81CEE77027A99E34009EE251 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE76F27A99E34009EE251 /* CustomNavBarView.swift */; };
+		81CEE77227A9A1AC009EE251 /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE77127A9A1AC009EE251 /* CustomNavBarContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		81CEE76527A99C92009EE251 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81CEE76D27A99CDE009EE251 /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
 		81CEE76F27A99E34009EE251 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		81CEE77127A9A1AC009EE251 /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				81CEE76D27A99CDE009EE251 /* AppNavBarView.swift */,
 				81CEE76F27A99E34009EE251 /* CustomNavBarView.swift */,
+				81CEE77127A9A1AC009EE251 /* CustomNavBarContainerView.swift */,
 			);
 			path = NavBar;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81CEE76127A99C90009EE251 /* ContentView.swift in Sources */,
+				81CEE77227A9A1AC009EE251 /* CustomNavBarContainerView.swift in Sources */,
 				81CEE77027A99E34009EE251 /* CustomNavBarView.swift in Sources */,
 				81CEE75F27A99C90009EE251 /* CustomNavBarApp.swift in Sources */,
 				81CEE76E27A99CDE009EE251 /* AppNavBarView.swift in Sources */,
