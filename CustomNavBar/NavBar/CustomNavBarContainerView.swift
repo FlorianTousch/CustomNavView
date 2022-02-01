@@ -43,6 +43,7 @@ struct CustomNavBarContainerView_Previews: PreviewProvider {
                 
                 Text("Hello")
                     .foregroundColor(.white)
+                    .customNavBarItems(title: "Titre", subtitle: "Sous-titre", backButtonHidden: false)
             }
         }
     }
