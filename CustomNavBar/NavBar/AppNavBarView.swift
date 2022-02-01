@@ -16,8 +16,8 @@ struct AppNavBarView: View {
                 CustomNavLink(destination: Text("Destination")) {
                     Text("Navigate")
                 }
-
             }
+            .customNavigationTitle("Test")
         }
     }
 }
