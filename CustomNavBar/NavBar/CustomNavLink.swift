@@ -18,7 +18,12 @@ struct CustomNavLink<Label: View, Destination: View>: View {
     }
     
     var body: some View {
-        NavigationLink { destination } label: { label }
+        NavigationLink {
+            CustomNavBarContainerView {
+                destination
+            }
+            .navigationBarHidden(true)
+        } label: { label }
 
     }
 }
