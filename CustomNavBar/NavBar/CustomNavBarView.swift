@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct CustomNavBarView: View {
+    
+    @State private var showBackButton: Bool = true
+    @State private var title: String = ""
+    @State private var subtitle: String? = nil
+    
     var body: some View {
         HStack {
-            backButton
+            if showBackButton {
+                backButton
+            }
             Spacer()
             titleSection
             Spacer()
-            backButton
-                .opacity(0)
+            if showBackButton {
+                backButton
+                    .opacity(0)
+            }
         }
         .padding()
         .accentColor(.white)
@@ -48,10 +57,12 @@ extension CustomNavBarView {
     
     private var titleSection: some View {
         VStack(spacing: 4) {
-            Text("Title")
+            Text(title)
                 .font(.title)
                 .fontWeight(.semibold)
-            Text("Description")
+            if let subtitle = subtitle {
+                Text(subtitle)
+            }
         }
     }
 }
